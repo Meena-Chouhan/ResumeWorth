@@ -1,0 +1,64 @@
+/* LinkedInSubmit.css */
+
+.linkedin-submit-container {
+  max-width: 500px;
+  margin: 3rem auto;
+  padding: 2rem;
+  border: 1px solid #d3e0ea;
+  background-color: #e0e1ec;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  background: linear-gradient(to bottom right, #ffffff, #e9f3ff);
+}
+
+.linkedin-submit-container h2 {
+  font-size: 1.8rem;
+  font-weight: 650;
+  color: #1e3a8a;
+  margin-bottom: 1.2rem;
+}
+
+.linkedin-submit-container input[type="text"] {
+  width: 100%;
+  padding: 0.8rem 1rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  transition: border-color 0.3s;
+  width: auto;
+}
+
+.linkedin-submit-container input[type="text"]:focus {
+  border-color: #0073b1; /* LinkedIn blue */
+  outline: none;
+  
+}
+
+.linkedin-submit-container button {
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: auto;
+}
+
+.linkedin-submit-container button:hover {
+  background-color: #218838;
+}
+
+.linkedin-submit-container button:disabled {
+  background-color: #a8a8a8;
+  cursor: not-allowed;
+}
+
+.linkedin-submit-container p {
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  color: #444;
+}

@@ -1,0 +1,91 @@
+.dashboard-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+h2 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+h3 {
+  margin-top: 2rem;
+  color: #444;
+}
+
+.list-group {
+  list-style: none;
+  padding-left: 0;
+}
+
+.list-item {
+  padding: 1rem;
+  margin: 0.5rem 0;
+  background: #fff;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.list-item a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: 500;
+}
+
+.list-item button.ana{
+  margin: 0px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  background: #28a745;
+  color: white;
+  cursor:pointer;
+}
+.list-item button.delete {
+  padding: 8px 12px;
+  border: none;
+  background: #28a745;
+  color: white;
+  cursor:pointer;
+  width: auto;
+}
+div.out {
+  padding: 8px 12px;
+  border: none;
+  background: #eff8f1;
+  color: rgb(255, 247, 247);
+  cursor:pointer;
+  width: auto;
+}
+
+
+.list-item button:hover {
+  background: #218838;
+}
+
+.list-item button:disabled {
+  background: gray;
+  cursor: not-allowed;
+}
+
+.analysis-result {
+  background-color: #fff;
+  margin-top: 2rem;
+  padding: 1rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+pre {
+  background: #f5f5f5;
+  padding: 1rem;
+  overflow: auto;
+  border-radius: 4px;
+}
